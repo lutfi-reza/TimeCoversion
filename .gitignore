@@ -1,0 +1,46 @@
+# Xcode Build Artifacts
+DerivedData/
+build/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Personal User Data (Keep shared data intact!)
+# Shared data like shared schemes should be committed
+xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Architecture / Playgrounds
+*.moved-aside
+*.xctimeline
+*.playground/
+
+# Swift Package Manager
+# Choose whether to commit .resolved depending on your team's strategy
+.build/
+Packages/
+Package.pins
+*.xcodeproj/xscheduleresults
+*.xcodeproj/xcshareddata/xcbaselines
+
+# Dependency Managers
+# If using CocoaPods, uncomment the line below if you don't want to commit Pods
+# Pods/
+# If using Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Localization / Development Tools
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# macOS System Files
+.DS_Store
+*.swp
+*~
